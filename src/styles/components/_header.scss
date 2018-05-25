@@ -1,0 +1,41 @@
+.header {
+    font-size: 2.5rem;
+    display: flex;
+    padding-bottom: $s-padding;
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+    z-index: 100;
+    background-color: #3b302c;
+    color: #fcf1d9;
+}
+
+.header-title {
+    display: inline-block;
+    padding-left: $l-padding;
+    padding-top: $s-padding;
+}
+
+.header-tabs {
+    position: absolute;
+    right: 4.2rem;
+    top: 0;
+    z-index: 10;
+    padding-top: 1.4rem;
+}
+
+.header-tab {
+    display: inline-block;
+    padding-left: $l-padding;
+    padding-right: $l-padding;
+}
+
+.header-tab-active {
+    display: inline-block;
+    margin-left: $l-padding;
+    margin-right: $l-padding;
+    color: #c4c3c1;
+    padding-bottom: 3px;
+    border-bottom: 2.2px solid #c4c3c1;
+}

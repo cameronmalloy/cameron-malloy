@@ -1,0 +1,64 @@
+.container-main {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    padding-top: 100px;
+    position: relative;
+    top: 5.5rem;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
+
+.container-main-main,
+.container-main-info {
+    overflow: auto;
+    height: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.container-main-info {
+    width: 33%;
+    background-color: #ebeae6;
+    padding: .5rem;
+}
+
+.container-main-main {
+    flex: 1;
+    background-color: #fdfaf3;
+}
+
+.container-main-img {
+    padding-top: 1.5rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
+
+.home-label {
+    padding-top: 3rem;
+    font-size: $l-font;
+    font-weight: 550;
+    text-align: center;
+}
+
+.home-desc {
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #acabaa;
+    margin-left: 26rem;
+    margin-right: 26rem;
+    font-style: italic;
+}
+
+.test {
+    font-size: 2rem;
+}
+
+.info-title-home {
+    color: #3f3f3e;
+    text-align: center;
+}

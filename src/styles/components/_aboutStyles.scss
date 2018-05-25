@@ -1,0 +1,357 @@
+.info-panel {
+    position: relative;
+    width: 95%;
+    padding-bottom: 7%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.info-panel-img {
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button-block {
+    position: relative;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.email-text {
+    margin-top: -3rem;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-media-icon {
+    position: relative;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.social-media-icon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.resume-button {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5rem;
+    padding: 13px 30px;
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+    font-size: 2rem;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.resume-button:hover {
+    color: white;
+    background-color: #008CBA;
+}
+
+.resume-block {
+    position: relative;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 905px) {
+    .social-media-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .resume-button {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .email-text {
+        margin-top: 1rem;
+    }
+}
+
+.container-about-me {
+    position: relative;
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #525150;
+    font-size: 2rem;
+}
+
+.about-education {
+    position: relative;
+    margin-top: 4rem;
+    width: 100%;
+    height: 30rem;
+    background-color: #003262;
+}
+
+.seal-img {
+    position: relative;
+    float: left;
+    //height: 25rem;
+    width: 15%;
+    margin-top: 7%;
+    vertical-align: middle;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+
+.majors {
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+    color: #fdfaf3;
+    width: 50%
+}
+
+.major-title {
+    width: 50%;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: .3rem;
+    border-bottom: 2px solid #fdfaf3;
+}
+
+.major {
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 1px solid #fdfaf3;
+    border-radius: 5px;
+    text-align: center;
+    width: 70%;
+}
+
+.major:hover {
+    background-color: #014381;
+}
+
+.major-helper {
+    text-align: center;
+    color: #868585;
+}
+
+@media screen and (max-width: 845px) {
+    .about-education {
+        height: 33rem;
+    }
+
+    .seal-img {
+        margin-top: 9rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .about-education {
+        height: 55rem;
+        text-align: center;
+    }
+
+    .seal-img {
+        margin-top: 2rem;
+        display: block;
+        margin-left: 23%;
+    }
+
+    .majors {
+        margin-left: 17%;
+    }
+}
+
+.skills-container {
+    position: relative;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.skills-img {
+    width: 100%;
+    opacity: 0.07;
+}
+
+.text-skills {
+    position: absolute;
+    float: left;
+    width: 50%;
+    top: 5rem;
+    left: 2rem;
+}
+
+.text-skills2 {
+    position: absolute;
+    float: right;
+    width: 50%;
+    top: 5rem;
+    right: 2rem;
+}
+
+.skills-title {
+    position: relative;
+    font-size: 2.5rem;
+    width: 70%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: .3rem;
+    border-bottom: 2px solid black;
+}
+
+.skills {
+    position: relative;
+    font-size: 2rem;
+    width: 60%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.skills li {
+    padding-bottom: 2rem;
+}
+
+.slight-padding {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 925px) {
+    .text-skills, {
+        position: absolute;
+        float: none;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-skills2 {
+        position: relative;
+        margin-top: 15rem;
+        float: none;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.line-90 {
+    display: inline-block;
+    width: 80%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #000000;
+}
+
+.line-80 {
+    display: inline-block;
+    width: 70%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #000000;
+}
+
+.line-60 {
+    display: inline-block;
+    width: 50%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #000000;
+}
+
+.line-50 {
+    display: inline-block;
+    width: 40%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #000000;
+}
+
+//have to subtract 15 for circle width
+.gline-20 {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #003262;
+}
+
+.gline-40 {
+    display: inline-block;
+    width: 30%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #003262;
+}
+.gline-50 {
+    display: inline-block;
+    width: 40%;
+    height: 2px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    background-color: #003262;
+}
+
+.circle {
+    display: inline-block;
+    margin-top: 2px;
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 1.7rem;
+    background-color: #000000;
+}
+
+.text-skills2 .skills-title li {
+    padding: 5rem;
+}

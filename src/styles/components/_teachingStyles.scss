@@ -1,0 +1,37 @@
+.video-block {
+    margin: 1.5rem;
+    padding-top: 1rem;;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    width: 95%;
+    text-align: left;
+    background-color: white;
+    font-size: $m-font;
+    box-shadow: 1px 1px 1px gray;
+    border-radius: 5px;
+}
+.video-block-active {
+    margin: 1.5rem;
+    padding-top: 1rem;;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    width: 95%;
+    text-align: left;
+    background-color: rgb(176, 176, 179);
+    font-size: $m-font;
+    border-left: 4px solid black;
+    border-radius: 5px;
+}
+
+.video-block-active:focus {
+    outline: 0;
+}
+
+.teaching-video {
+    padding-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
