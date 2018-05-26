@@ -7,7 +7,7 @@ import Skills from './Skills.js';
 const AboutMain = () => (
             <div className="container-main-main">
                 <div className="container-about-main">
-                    <TitleMain title={"This Nerd"} />
+                    <TitleMain title={"Get Busy Living, or Get Busy Coding"} />
                 </div>
                 <AboutMe />
                 <Education />

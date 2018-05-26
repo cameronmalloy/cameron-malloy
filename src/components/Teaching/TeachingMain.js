@@ -6,7 +6,7 @@ const TeachingMain = (props) => {
     if (props.location.length < 11) {
         return (
             <div className="container-main-main">
-                <TitleMain title={"Resources"} />
+                <TitleMain title={"Teaching Info"} />
                 <div className="teaching-email">
                     email: cmalloy@berkeley.edu
                 </div>
@@ -37,6 +37,7 @@ const TeachingMain = (props) => {
                         </a>
                     </div>
                 </div>
+                <div className="line"></div>
             </div>
         )
     } else {
