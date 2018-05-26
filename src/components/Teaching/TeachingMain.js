@@ -7,6 +7,36 @@ const TeachingMain = (props) => {
         return (
             <div className="container-main-main">
                 <TitleMain title={"Resources"} />
+                <div className="teaching-email">
+                    email: cmalloy@berkeley.edu
+                </div>
+                <div className="teaching-email-desc">
+                    I get a ton of emails, and I funnel all of them from all my accounts (personal, school, work)
+                    into one then sort them from there. It would really help me if you put [STUDENT] at the
+                    beginning of the subject line and I'll get back to you even faster!
+                </div>
+                <div className="line"></div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">Lab 14: </div>
+                    <div className="teaching-named-desc">2:30-4pm - 273 Soda</div>
+                </div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">Disucssion 104: </div>
+                    <div className="teaching-named-desc">2:30-4pm - 310 Soda</div>
+                </div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">Office Hours: </div>
+                    <div className="teaching-named-desc">10-11am - 521 Cory</div>
+                </div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">HW Party: </div>
+                    <div className="teaching-named-desc">3-4pm - 521 Cory</div>
+                    <div className="small-margin-top">
+                        <a href="https://calendar.google.com/calendar/selfsched?sstoken=UU9NS0g3dEotR1hyfGRlZmF1bHR8M2MxZjUyZGJjYTBiZmNhZTE5ZTZmNjY3NWIyNTE1NGE" target="_blank">
+                            <button className="appointment-button">Book an Appointment Here</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         )
     } else {
