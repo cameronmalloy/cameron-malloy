@@ -96,6 +96,7 @@
 .container-about-me {
     position: relative;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -105,18 +106,17 @@
 
 .about-education {
     position: relative;
-    margin-top: 4rem;
     width: 100%;
     height: 30rem;
     background-color: #003262;
+    vertical-align: middle;
 }
 
 .seal-img {
     position: relative;
-    float: left;
+    display: inline-block;
     //height: 25rem;
     width: 15%;
-    margin-top: 7%;
     vertical-align: middle;
     padding-left: 5rem;
     padding-right: 4rem;
@@ -127,8 +127,8 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    float: left;
     display: inline-block;
+    vertical-align: middle;
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 2rem;
@@ -169,13 +169,19 @@
     color: #868585;
 }
 
+@media screen and (max-width: 1100px) {
+    .seal-img {
+        width: 25%;
+    }
+}
+
 @media screen and (max-width: 845px) {
     .about-education {
         height: 33rem;
     }
 
     .seal-img {
-        margin-top: 9rem;
+        width: 30%;
     }
 }
 
@@ -188,11 +194,14 @@
     .seal-img {
         margin-top: 2rem;
         display: block;
-        margin-left: 23%;
+        margin-right: auto;
+        margin-left: auto;
     }
-
+    
     .majors {
-        margin-left: 17%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
