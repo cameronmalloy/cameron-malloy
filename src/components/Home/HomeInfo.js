@@ -1,9 +1,14 @@
 import React from 'react';
+import HomeUpdate from './HomeUpdate.js'
 
 const HomeInfo = () => (
     <div className="container-main-info">
-        <div className="test">
+        <div className="two-rem-text">
             <div className="info-title-title">Updates</div>
+            <div className="seventy-five-percent-container">
+                <HomeUpdate title="Updated About Page" highlights="Works better with smaller webpage sizes"date="6/10/18" link="/about"/>
+                <HomeUpdate title="Added Github Link" highlights="Restaurant Project" date="6/10/18" link="projects1"/>
+            </div>
         </div>
     </div>
 )
