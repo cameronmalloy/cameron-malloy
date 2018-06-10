@@ -17,6 +17,9 @@ export default class Project1 extends Component {
 
     return (
         <div className="container-main-main">
+          <a href="https://github.com/cameronmalloy/BerkeleyRestaurantPrices" target="_blank">
+            <div className="button-2px">Github Link</div>
+          </a>
           <div className="project-pdf-container">
             <Document
               file="/pdfs/project1.pdf"

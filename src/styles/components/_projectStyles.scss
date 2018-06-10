@@ -52,3 +52,22 @@
     font-weight: 530;
     font-size: 1.4rem;
 }
+
+.button-2px {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    padding: 13px 30px;
+    background-color: #fdfaf3; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+    font-size: 2rem;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.button-2px:hover {
+    color: #fdfaf3;
+    background-color: #008CBA;
+    cursor: pointer;
+}
