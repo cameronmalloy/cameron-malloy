@@ -43,7 +43,8 @@ const TeachingMain = (props) => {
     } else {
         const location = props.location;
         const num = location.charAt(10);
-        if (num == 0) {
+        const num2 = location.charAt(11);
+        if (num == 0 && num2 == 0) {
             return (
                 <div className="container-main-main">
                     <TitleMain title={"Test (Lego)"} />
@@ -56,7 +57,7 @@ const TeachingMain = (props) => {
                     </div>
                 </div>
             )
-        } else if (num == 1) {
+        } else if (num == 0 && num2 == 1) {
             return (
                 <div className="container-main-main">
                     <TitleMain title={"Panic! Boheian Rhapsody"} />
@@ -64,7 +65,7 @@ const TeachingMain = (props) => {
                         <YoutubeEmbedVideo
                             videoId="irK0Su5SE2Y"
                             suggestions={false}
-                            width={960}
+                            width={640}
                             height={540}/>
                     </div>
                 </div>
