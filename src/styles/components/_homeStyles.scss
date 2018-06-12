@@ -34,6 +34,16 @@
     background-color: #fdfaf3;
 }
 
+@media screen and (max-width: 729px) {
+    .container-main-main {
+        margin-top: 5.2rem;
+    }
+
+    .container-main-info {
+        margin-top: 6.5rem;
+    }
+}
+
 .container-main-img {
     padding-top: 1.5rem;
     margin-left: 25%;
