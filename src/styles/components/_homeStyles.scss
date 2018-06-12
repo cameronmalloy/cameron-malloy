@@ -58,14 +58,30 @@
     text-align: center;
 }
 
-.home-desc {
-    padding-top: 1.5rem;
-    font-size: 1.7rem;
-    font-weight: 500;
-    color: #acabaa;
-    margin-left: 26rem;
-    margin-right: 26rem;
-    font-style: italic;
+@media screen and (max-width: 1500px) {
+    .home-desc {
+        padding-top: 1.5rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: #acabaa;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width: 1501px) {
+    .home-desc {
+        padding-top: 1.5rem;
+        font-size: 1.7rem;
+        font-weight: 500;
+        color: #acabaa;
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+    }
 }
 
 .two-rem-text {
