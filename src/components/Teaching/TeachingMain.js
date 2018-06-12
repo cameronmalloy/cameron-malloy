@@ -16,20 +16,21 @@ const TeachingMain = (props) => {
                     beginning of the subject line and I'll get back to you even faster!
                 </div>
                 <div className="line"></div>
+                <div className="teaching-title">My CS 61A Sections</div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Lab 14: </div>
+                    <div className="teaching-named-title">Lab 14 [T/TH]: </div>
                     <div className="teaching-named-desc">2:30-4pm - 273 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Disucssion 104: </div>
+                    <div className="teaching-named-title">Disucssion 104 [M/W]: </div>
                     <div className="teaching-named-desc">2:30-4pm - 310 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Office Hours: </div>
+                    <div className="teaching-named-title">Office Hours [Th]: </div>
                     <div className="teaching-named-desc">10-11am - 521 Cory</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">HW Party: </div>
+                    <div className="teaching-named-title">HW Party [F]: </div>
                     <div className="teaching-named-desc">3-4pm - 521 Cory</div>
                     <div className="small-margin-top">
                         <a href="https://calendar.google.com/calendar/selfsched?sstoken=UU9NS0g3dEotR1hyfGRlZmF1bHR8M2MxZjUyZGJjYTBiZmNhZTE5ZTZmNjY3NWIyNTE1NGE" target="_blank">
@@ -38,6 +39,11 @@ const TeachingMain = (props) => {
                     </div>
                 </div>
                 <div className="line"></div>
+                <div className="teaching-title">My Data 8 Lab Assist Section</div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">Lab [M/W]: </div>
+                    <div className="teaching-named-desc">11am-1pm</div>
+                </div>
             </div>
         )
     } else {
