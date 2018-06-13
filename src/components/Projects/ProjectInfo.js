@@ -67,6 +67,7 @@ export default class ProjectInfo extends React.Component {
                             </div>
                         </div>
                     </NavLink>
+                    <div className="buffer"></div>
                 </div>
             </div>
         )

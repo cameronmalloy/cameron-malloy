@@ -6,6 +6,7 @@ const Project1Deliverable = () => (
     <div className="container-main">
         <Project2 />
         <ProjectInfo />
+        <div className="buffer"></div>
     </div>
 )
 

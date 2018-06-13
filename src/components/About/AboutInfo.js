@@ -12,6 +12,7 @@ const AboutInfo = () => (
                 <div className="email-text">Contact: cmalloy@berkeley.edu</div>
             </div>
         </div>
+        <div className="buffer"></div>
     </div>
 )
 

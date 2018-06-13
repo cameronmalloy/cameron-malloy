@@ -12,6 +12,7 @@ const AboutMain = () => (
                 <AboutMe />
                 <Education />
                 <Skills />
+                <div className="buffer"></div>
             </div>
 )
 

@@ -44,6 +44,7 @@ const TeachingMain = (props) => {
                     <div className="teaching-named-title">Lab [M/W]: </div>
                     <div className="teaching-named-desc">11am-1pm</div>
                 </div>
+                <div className="buffer"></div>
             </div>
         )
     } else {

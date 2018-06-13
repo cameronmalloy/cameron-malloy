@@ -55,6 +55,7 @@ export default class TeachingInfo extends React.Component {
                             <HomeUpdate title="Bohemian Test" highlights="Testing Again"date="6/11/18" link="/teaching/01" />
                         </button>
                 </div>
+                <div className="buffer"></div>
             </div>
         )
     }

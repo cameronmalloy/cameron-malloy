@@ -10,6 +10,7 @@ import Teaching from './components/Teaching/Teaching';
 import About from './components/About/About';
 import Project1Deliverable from './components/Projects/ProjectPdfs/Project1Deliverable';
 import Project2Deliverable from './components/Projects/ProjectPdfs/Project2Deliverable';
+import Footer from './components/Footer';
 
 const HomePage = () => <Home />
 const ProjectPage = (props) => <Project location={props.location} />
@@ -37,6 +38,7 @@ const routes = (
                 <Route path="/projects2" component={Project2Page} exact={true} />
                 <Route component={NotFoundPage} />
             </Switch>
+            <Footer />
         </div>
     </BrowserRouter>
 );

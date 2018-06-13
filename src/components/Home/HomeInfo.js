@@ -11,6 +11,7 @@ const HomeInfo = () => (
                 <HomeUpdate title="Added Github Link" highlights="Restaurant Project" date="6/10/18" link="projects1" />
             </div>
         </div>
+        <div className="buffer"></div>
     </div>
 )
 

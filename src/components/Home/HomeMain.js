@@ -10,6 +10,7 @@ const HomeMain = () => (
             Hi, I'm Cameron. I'm a student and Teaching Assistant at UC Berkeley.
             I love playing around with data and constantly looking to improve all the products and projects I oversee.
         </div>
+        <div className="buffer"></div>
     </div>
 )
 
