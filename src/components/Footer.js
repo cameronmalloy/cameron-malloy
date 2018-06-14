@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 const Footer = () => (
     <div className="footer">
-        Hello there.
     </div>
 )
 

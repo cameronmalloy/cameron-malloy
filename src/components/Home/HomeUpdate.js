@@ -8,6 +8,7 @@ const HomeUpdate = (props) => {
     const link = props.link;
     return (
         <NavLink to={link}>
+            <div className="home-padding" />
             <div className = "update-block">
             <div className="update-title">{title}</div>
             <div className="update-highlights">{highlights}</div>

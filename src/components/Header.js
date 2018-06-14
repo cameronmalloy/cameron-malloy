@@ -9,9 +9,7 @@ const Header = (props) => {
     return (
     <div className="header">
         <NavLink to="/">
-            <div className="header-title">
-                Cameron Malloy
-            </div>
+            <img className="header-title" src="imgs/signature.jpg" />
         </NavLink>
         <div className="header-tabs">
             <NavLink to="/projects">

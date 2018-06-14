@@ -2,7 +2,7 @@
     display: flex;
     overflow: hidden;
     height: 100vh;
-    margin-top: -100px;
+    margin-top: -85px;
     padding-top: 100px;
     position: relative;
     top: 5.5rem;
@@ -134,4 +134,8 @@
     font-size: 1.8rem;
     color: rgb(112, 113, 114);
     margin-left: .75rem;
+}
+
+.home-padding {
+    height: $s-padding;
 }

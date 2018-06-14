@@ -1,7 +1,10 @@
 import React from 'react';
+import TitleMain from '../TitleMain.js';
 
 const HomeMain = () => (
     <div className="container-main-main">
+        <TitleMain title={"Cameron Malloy"} />
+        <div className="home-padding" />
         <img className="container-main-img" src="/imgs/me.png" />
         <div className="home-label">
             Aspring Data Scientist / Product Manager
