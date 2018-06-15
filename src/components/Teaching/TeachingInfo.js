@@ -46,7 +46,7 @@ export default class TeachingInfo extends React.Component {
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">CS 61A</div>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 0) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Lego test" highlights="Testing"date="6/11/18" link="/teaching/00" />
+                            <HomeUpdate title="Ghetto Spiderman" highlights="Testing"date="6/11/18" link="/teaching/00" />
                         </button>
                 </div>
                 <div className="teaching-info-block">
