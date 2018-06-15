@@ -54,10 +54,10 @@ const TeachingMain = (props) => {
         if (num == 0 && num2 == 0) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Test (Lego)"} />
+                    <TitleMain title={"Ghetto Spiderman"} />
                     <div className="teaching-video">
                         <YoutubeEmbedVideo
-                            videoId="RnDC9MXSqCY"
+                            videoId="iDXIa8ivFEc"
                             suggestions={false}
                             width={640}
                             height={360}/>
