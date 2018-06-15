@@ -73,7 +73,7 @@ const TeachingMain = (props) => {
                             videoId="irK0Su5SE2Y"
                             suggestions={false}
                             width={640}
-                            height={540}/>
+                            height={360}/>
                     </div>
                 </div>
             )
