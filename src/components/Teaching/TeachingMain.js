@@ -18,12 +18,12 @@ const TeachingMain = (props) => {
                 <div className="line"></div>
                 <div className="teaching-title">My CS 61A Sections</div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Disucssion 104 [M/W]: </div>
-                    <div className="teaching-named-desc">2:30-4pm - 310 Soda</div>
+                    <div className="teaching-named-title">Lab 14 [M/W]: </div>
+                    <div className="teaching-named-desc">2:30-4pm - 273 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Lab 14 [T/TH]: </div>
-                    <div className="teaching-named-desc">2:30-4pm - 273 Soda</div>
+                    <div className="teaching-named-title">Disucssion 104 [T/TH]: </div>
+                    <div className="teaching-named-desc">2:30-4pm - 310 Soda</div>
                 </div>
                 <div className="teaching-locations">
                     <div className="teaching-named-title">Office Hours [Th]: </div>
