@@ -77,6 +77,44 @@ const TeachingMain = (props) => {
                     </div>
                 </div>
             )
+        } else if (num == 0 && num2 == 2) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 1"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        We introduced python this week. We learned about expressions, statements, and how python works with assignment statements.
+                        We learned more statements, such as def statements which allows us to create function objects to further enhance our code.
+                        We also learned that def statements can be nested within def statements (HOF).
+                        Control, such as if statements and while loops came to fruition, which also came along with the importance of conditional statements
+                        driven by boolean expressions.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div className="small-margin-top">
+                            <a href="https://docs.google.com/presentation/d/1btI-jZvpctWRJSdfMA6wxMBxkODeIKf_-S-6ZBz4luo/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Discussion 01 Slides: Return vs Print, Assignment Statements, and Short Circuiting</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/playlist?list=PLUYe1vShxMpeYFfPMq3xuHRzMZlOaxkpg" target="_blank">
+                                <button className="appointment-button">Discussion 01 Video Solution Playlist</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Week 1 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                </div>
+            )
         }
     }
 }

@@ -46,13 +46,14 @@ export default class TeachingInfo extends React.Component {
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">CS 61A</div>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 0) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Ghetto Spiderman" highlights="Testing"date="6/11/18" link="/teaching/00" />
+                            <HomeUpdate title="Week 1" highlights="Functions & Control" date="6/23/18" link="/teaching/02" /> 
+                            <HomeUpdate title="Ghetto Spiderman" highlights="Testing" date="6/11/18" link="/teaching/00" />
                         </button>
                 </div>
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">Data 8</div>
                         <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 1) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Bohemian Test" highlights="Testing Again"date="6/11/18" link="/teaching/01" />
+                            <HomeUpdate title="Bohemian Test" highlights="Testing Again" date="6/11/18" link="/teaching/01" />
                         </button>
                 </div>
                 <div className="buffer"></div>
