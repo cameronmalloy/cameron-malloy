@@ -62,6 +62,7 @@ const TeachingMain = (props) => {
                             width={640}
                             height={360}/>
                     </div>
+                    <div className="buffer"></div>
                 </div>
             )
         } else if (num == 0 && num2 == 1) {
@@ -75,6 +76,7 @@ const TeachingMain = (props) => {
                             width={640}
                             height={360}/>
                     </div>
+                    <div className="buffer"></div>
                 </div>
             )
         } else if (num == 0 && num2 == 2) {
@@ -98,7 +100,7 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                         <div>
-                            <a href="https://www.youtube.com/playlist?list=PLUYe1vShxMpeYFfPMq3xuHRzMZlOaxkpg" target="_blank">
+                            <a href="https://www.youtube.com/playlist?list=PLx38hZJ5RLZfg6jvEBBtjc5fnc5BclyEb" target="_blank">
                                 <button className="appointment-button">Discussion 01 Video Solution Playlist</button>
                             </a>               
                         </div>
@@ -113,6 +115,7 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                     </div>
+                    <div className="buffer"></div>
                 </div>
             )
         }
