@@ -3,6 +3,7 @@ import YoutubeEmbedVideo from 'youtube-embed-video';
 import TitleMain from '../TitleMain.js';
 
 const TeachingMain = (props) => {
+    console.log(props.location)
     if (props.location.length < 11) {
         return (
             <div className="container-main-main">

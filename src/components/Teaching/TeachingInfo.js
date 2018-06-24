@@ -40,13 +40,14 @@ export default class TeachingInfo extends React.Component {
         } else {
             this.handleSelectVideo(lastChar);
         }
-        console.log(url.charAt(url.length - 1))
         return (
             <div className="container-main-info">
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">CS 61A</div>
-                        <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 0) ? "video-block-active" : "video-block"}>
+                        <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 2) ? "video-block-active" : "video-block"}>
                             <HomeUpdate title="Week 1" highlights="Functions & Control" date="6/23/18" link="/teaching/02" /> 
+                        </button>
+                        <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 0) ? "video-block-active" : "video-block"}>
                             <HomeUpdate title="Ghetto Spiderman" highlights="Testing" date="6/11/18" link="/teaching/00" />
                         </button>
                 </div>
