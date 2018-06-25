@@ -134,7 +134,7 @@ const TeachingMain = (props) => {
                     <div className="teaching-title">Important Links</div>
                     <div className="teaching-locations">
                         <div className="small-margin-top">
-                            <a href="https://docs.google.com/presentation/d/1nMZoDHoOrbgf3rDM5qUGdZniBHj-BDdbh1etG0qgWNk/edit#slide=id.g3c82e405aa_0_278" target="_blank">
+                            <a href="https://docs.google.com/presentation/d/1nMZoDHoOrbgf3rDM5qUGdZniBHj-BDdbh1etG0qgWNk/edit#slide=id.p" target="_blank">
                                 <button className="appointment-button">Lab 03 Slides: Lambdas</button>
                             </a>               
                         </div>
