@@ -119,6 +119,44 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
+        } else if (num == 0 && num2 == 3) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 2"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        We practiced more environment diagrams, especially harder problems with higher order functions and lambda functions. We discussed
+                        the difference between lambda functions and def statements and why lambdas are sometimes preferred. We went over sequences, specifically
+                        lists which will be a main data structure thoughout the course. Furthermore we learned a powerful tool, recursion, which is another
+                        variation of the loop but involves calling the function you are currently in.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div className="small-margin-top">
+                            <a href="https://docs.google.com/presentation/d/1nMZoDHoOrbgf3rDM5qUGdZniBHj-BDdbh1etG0qgWNk/edit#slide=id.g3c82e405aa_0_278" target="_blank">
+                                <button className="appointment-button">Lab 03 Slides: Lambdas</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://imgur.com/gallery/huihL" target="_blank">
+                                <button className="appointment-button">Discussion Video Solutions released later in week. Enjoy mantis shrimp :)</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://imgur.com/gallery/T44ny1V" target="_blank">
+                                <button className="appointment-button">Week 2 Student Statistics released at end of the week :(</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
         }
     }
 }
