@@ -133,24 +133,19 @@ const TeachingMain = (props) => {
                     <div className="line"></div>
                     <div className="teaching-title">Important Links</div>
                     <div className="teaching-locations">
-                        <div className="small-margin-top">
-                            <a href="https://docs.google.com/presentation/d/1nMZoDHoOrbgf3rDM5qUGdZniBHj-BDdbh1etG0qgWNk/edit#slide=id.p" target="_blank">
-                                <button className="appointment-button">Lab 03 Slides: Lambdas</button>
+                        <div>
+                            <a href="https://www.youtube.com/playlist?list=PLlUmZTUe7llHjaDmTtGluk_81tNyheaDm" target="_blank">
+                                <button className="appointment-button">Discussion 02 Video Solutions</button>
                             </a>               
                         </div>
                         <div>
-                            <a href="https://imgur.com/gallery/huihL" target="_blank">
-                                <button className="appointment-button">Discussion Video Solutions released later in week. Enjoy mantis shrimp :)</button>
+                            <a href="https://www.youtube.com/playlist?list=PLlUmZTUe7llGsuI41WMocQf2JmNUz8FCc" target="_blank">
+                                <button className="appointment-button">Discussion 03 Video Solutions</button>
                             </a>               
                         </div>
                         <div>
-                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
-                                <button className="appointment-button">Python Tutor</button>
-                            </a>               
-                        </div>
-                        <div>
-                            <a href="https://imgur.com/gallery/T44ny1V" target="_blank">
-                                <button className="appointment-button">Week 2 Student Statistics released at end of the week :(</button>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Week 2 Student Statistics</button>
                             </a>               
                         </div>
                     </div>
