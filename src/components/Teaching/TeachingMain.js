@@ -144,8 +144,38 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                         <div>
-                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit?usp=sharing" target="_blank">
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1471554091" target="_blank">
                                 <button className="appointment-button">Week 2 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 0 && num2 == 4) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 3"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        Test Summary
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
+                                <button className="appointment-button">Discussion 04 Video Solutions Coming Soon!</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
+                                <button className="appointment-button">Discussion 05 Video Solutions Coming Soon!</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1031307119" target="_blank">
+                                <button className="appointment-button">Week 3 Student Statistics</button>
                             </a>               
                         </div>
                     </div>
