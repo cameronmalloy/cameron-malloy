@@ -164,6 +164,11 @@ const TeachingMain = (props) => {
                     <div className="teaching-title">Important Links</div>
                     <div className="teaching-locations">
                         <div>
+                            <a href="https://docs.google.com/presentation/d/1aknuccp4SAodY8CHi9SpBx2_o17840RpDTgNFwv_A8U/edit#slide=id.p" target="_blank">
+                                <button className="appointment-button">Summer 2017 and 2016 Midterm Non-Coding Problems (Diagramming) Slides</button>
+                            </a>               
+                        </div>
+                        <div>
                             <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
                                 <button className="appointment-button">Discussion 04 Video Solutions Coming Soon!</button>
                             </a>               
