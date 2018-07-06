@@ -158,7 +158,19 @@ const TeachingMain = (props) => {
                     <TitleMain title={"Week 3"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
-                        Test Summary
+                        This week was pretty busy. We talked about lists and mutability and how those list mutations work. We also talked about what makes copies
+                        of lists, like list slicing, the list operator, and adding lists together. We also saw that += and .extend() work the same. We also dove
+                        into trees, a very recursive data structure by nature because all of a roots branches is a tree itself. We learned the 2 very important
+                        steps to solving tree coding problems.
+                        <ol>
+                            <li>First find the base case</li>
+                            <li>Then use the branches to do a recursive call on those branches. Remember to use the leap of faith to make the problem much easier
+                                <ul>
+                                    <li>Remember if the skeleton code only has one line and no room for a base case, check if your list comprehension recursive call
+                                        satisfies the base case</li>
+                                </ul>
+                            </li>
+                        </ol>
                     </div>
                     <div className="line"></div>
                     <div className="teaching-title">Important Links</div>
