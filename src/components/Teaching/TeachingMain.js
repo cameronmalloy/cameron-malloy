@@ -182,12 +182,7 @@ const TeachingMain = (props) => {
                         </div>
                         <div>
                             <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
-                                <button className="appointment-button">Discussion 04 Video Solutions Coming Soon!</button>
-                            </a>               
-                        </div>
-                        <div>
-                            <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
-                                <button className="appointment-button">Discussion 05 Video Solutions Coming Soon!</button>
+                                <button className="appointment-button">Sorry, no Discussion Videos this Week :(</button>
                             </a>               
                         </div>
                         <div>
@@ -199,7 +194,41 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
+        }   else if (num == 0 && num2 == 5) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 4"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        This week we introduced a new language, Scheme! It's super awesome. It is really simple, but the syntax is a little weird. It has a lot of
+                        parallels to python, but also a lot of differences. Hopefully you'll see for yourself the beauty of scheme (it's pretty hard in the beginning
+                        I know)
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="../../../pdfs/lab6slides.pptx">
+                                <button className="appointment-button">Lab 6 Slides (Comparing Python and Scheme Syntax, super cool Animationssss!!)</button>
+                            </a>               
+                            <br />^^^ Download's Slides as PowerPoint (because Google Slides doesn't have animation) ^^^<br /><br />
+                        </div>
+                        <div>
+                            <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
+                                <button className="appointment-button">Idk if I'll do Video Solutions, we'll see... :(</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1031307119" target="_blank">
+                                <button className="appointment-button">Week 4 Student Statistics Coming Soon, for now here's Week 3 :P</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
         }
+
     }
 }
 
