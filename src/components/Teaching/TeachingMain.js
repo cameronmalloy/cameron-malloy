@@ -201,7 +201,7 @@ const TeachingMain = (props) => {
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
                         This week we introduced a new language, Scheme! It's super awesome. It is really simple, but the syntax is a little weird. It has a lot of
-                        parallels to python, but also a lot of differences. Hopefully you'll see for yourself the beauty of scheme (it's pretty hard in the beginning
+                        parallels to python, but also a lot of differences. Hopefully you'll see the beauty of scheme for yourself (it's pretty hard in the beginning
                         I know)
                     </div>
                     <div className="line"></div>
