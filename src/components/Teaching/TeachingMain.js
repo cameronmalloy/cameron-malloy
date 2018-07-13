@@ -209,18 +209,23 @@ const TeachingMain = (props) => {
                     <div className="teaching-locations">
                         <div>
                             <a href="../../../pdfs/lab6slides.pptx">
-                                <button className="appointment-button">Lab 6 Slides (Comparing Python and Scheme Syntax, super cool Animationssss!!)</button>
+                                <button className="appointment-button">Lab 6 Slides (Comparing Scheme basics, super cool Animationssss!!)</button>
                             </a>               
                             <br />^^^ Download's Slides as PowerPoint (because Google Slides doesn't have animation) ^^^<br /><br />
                         </div>
                         <div>
-                            <a href="https://www.akc.org/expert-advice/lifestyle/did-you-know/the-westie-is-more-than-just-adorable-meet-this-rugged-terrier/" target="_blank">
-                                <button className="appointment-button">Idk if I'll do Video Solutions, we'll see... :(</button>
+                            <a href="https://docs.google.com/presentation/d/16DiBAr6VG_4lkaMiueSn0VxwqX6PaVP9ujLlnlCSt0E/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Discussion 7 Slides (Scheme Lists)</button>
                             </a>               
                         </div>
                         <div>
-                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1031307119" target="_blank">
-                                <button className="appointment-button">Week 4 Student Statistics Coming Soon, for now here's Week 3 :P</button>
+                            <a href="https://scheme.cs61a.org" target="_blank">
+                                <button className="appointment-button">scheme.cs61a.org</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1934976681" target="_blank">
+                                <button className="appointment-button">Week 4 Student Statistics</button>
                             </a>               
                         </div>
                     </div>

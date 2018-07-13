@@ -5,6 +5,7 @@ const Header = (props) => {
     const url = document.URL;
     const last = url.charAt(url.length - 1);
     const penult = url.charAt(url.length - 2);
+    const penpenult = url.charAt(url.length - 3);
 
     return (
     <div className="header">
@@ -18,7 +19,7 @@ const Header = (props) => {
                 </div>
             </NavLink>
             <NavLink to="/teaching">
-                <div className={((last == 'g') || (penult == '/')) ? "header-tab-active" : "header-tab"}>
+                <div className={((last == 'g') || (penpenult == '/')) ? "header-tab-active" : "header-tab"}>
                     Teaching
                 </div>
             </NavLink>

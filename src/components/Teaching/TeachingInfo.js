@@ -62,13 +62,13 @@ export default class TeachingInfo extends React.Component {
                 </div>
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">Data 8</div>
-                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 1) ? "video-block-active" : "video-block"}>
+                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 8) ? "video-block-active" : "video-block"}>
                             <HomeUpdateAnchor title="Data and Tables" highlights="Week 2" date="6/23/18" link="../../../pdfs/data8su18datatables.pdf" />
                         </button>
-                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 1) ? "video-block-active" : "video-block"}>
+                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 7) ? "video-block-active" : "video-block"}>
                             <HomeUpdateAnchor title="Strings, Importing, and Numpy" highlights="Week 1" date="6/13/18" link="../../../pdfs/data8su18numpy.pdf" />
                         </button>
-                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 1) ? "video-block-active" : "video-block"}>
+                        <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 6) ? "video-block-active" : "video-block"}>
                             <HomeUpdateAnchor title="Introduction" highlights="Week 1" date="6/11/18" link="../../../pdfs/data8su18intro.pdf" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(1)} className={(this.state.videos == 1) ? "video-block-active" : "video-block"}>
