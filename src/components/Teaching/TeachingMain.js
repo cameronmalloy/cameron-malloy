@@ -249,7 +249,7 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                         <div>
-                            <a href="https://docs.google.com/presentation/d/1ocfuUKcXimAcDhicAxx_L7cMVlb1NuzNhGezXHpPbPA/edit?usp=sharing">
+                            <a href="https://docs.google.com/presentation/d/1ocfuUKcXimAcDhicAxx_L7cMVlb1NuzNhGezXHpPbPA/edit?usp=sharing" target="_blank">
                                 <button className="appointment-button">Lab 8 Slides (OOP Misconceptions and Example)</button>
                             </a>               
                         </div>
