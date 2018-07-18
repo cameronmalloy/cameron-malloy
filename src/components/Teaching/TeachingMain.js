@@ -209,7 +209,7 @@ const TeachingMain = (props) => {
                     <div className="teaching-locations">
                         <div>
                             <a href="../../../pdfs/lab6slides.pptx">
-                                <button className="appointment-button">Lab 6 Slides (Comparing Scheme basics, super cool Animationssss!!)</button>
+                                <button className="appointment-button">Lab 7 Slides (Comparing Scheme basics, super cool Animationssss!!)</button>
                             </a>               
                             <br />^^^ Download's Slides as PowerPoint (because Google Slides doesn't have animation) ^^^<br /><br />
                         </div>
@@ -232,7 +232,43 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
+        } else if (num == 0 && num2 == 6) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 4"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        Summary to come!
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1lxSYwv5hy930Nly811ZPOHHu2e6wxEb9PFNSs3eXris/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Discussion 8 Slides (Intro to OOP & Vocabulary)</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1ocfuUKcXimAcDhicAxx_L7cMVlb1NuzNhGezXHpPbPA/edit?usp=sharing">
+                                <button className="appointment-button">Lab 8 Slides (OOP Misconceptions and Example)</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://scheme.cs61a.org" target="_blank">
+                                <button className="appointment-button">scheme.cs61a.org</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1934976681" target="_blank">
+                                <button className="appointment-button">Week 5 Student Statistics (Not updated yet)</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
         }
+
 
     }
 }
