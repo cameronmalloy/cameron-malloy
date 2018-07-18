@@ -232,7 +232,7 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
-        } else if (num == 0 && num2 == 6) {
+        } else if (num == 0 && num2 == 9) {
             return (
                 <div className="container-main-main">
                     <TitleMain title={"Week 5"} />
