@@ -259,8 +259,8 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                         <div>
-                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1934976681" target="_blank">
-                                <button className="appointment-button">Week 5 Student Statistics (Not updated yet)</button>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=325225379" target="_blank">
+                                <button className="appointment-button">Week 5 Student Statistics</button>
                             </a>               
                         </div>
                     </div>
