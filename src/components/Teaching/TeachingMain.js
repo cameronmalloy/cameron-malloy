@@ -235,7 +235,7 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 6) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Week 4"} />
+                    <TitleMain title={"Week 5"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
                         Summary to come!
