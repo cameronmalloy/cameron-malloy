@@ -244,6 +244,11 @@ const TeachingMain = (props) => {
                     <div className="teaching-title">Important Links</div>
                     <div className="teaching-locations">
                         <div>
+                            <a href="https://docs.google.com/presentation/d/1h0up7uRD3QvK7WrKgM_Tq2BKiuOQUdH_zQqhNVz5TxU/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Discussion 10 Slides (Mutable Trees | Slide Walkthroughs)</button>
+                            </a>               
+                        </div>
+                        <div>
                             <a href="https://docs.google.com/presentation/d/1lxSYwv5hy930Nly811ZPOHHu2e6wxEb9PFNSs3eXris/edit?usp=sharing" target="_blank">
                                 <button className="appointment-button">Discussion 8 Slides (Intro to OOP & Vocabulary)</button>
                             </a>               
