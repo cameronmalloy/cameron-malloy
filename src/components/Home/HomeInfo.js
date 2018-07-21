@@ -6,6 +6,7 @@ const HomeInfo = () => (
         <div className="two-rem-text">
             <div className="info-title-title">Updates</div>
             <div className="seventy-five-percent-container">
+                <HomeUpdate title="Added Week 5" highlights="OOP" date="7/21/18" link="/teaching/09" />
                 <HomeUpdate title="Added Week 4" highlights="Scheme" date="7/10/18" link="/teaching/05" />
                 <HomeUpdate title="Added Week 4 Data 8 Notes" highlights="Notes on first 3 Weeks" date="7/5/18" link="/teaching" />
                 <HomeUpdate title="Added Week 3 (61A)" highlights="Abstraction" date="7/3/18" link="/teaching/04" />
