@@ -238,7 +238,7 @@ const TeachingMain = (props) => {
                     <TitleMain title={"Week 5"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
-                        Summary to come!
+                        We learned about object oriented programming. It's another way to organize your code. We learned more about objects and learned about a special type of objects, an instance. We also went more in depth into trees and found that classes allowed us to create mutable trees (compared to the Tree ADT where we could not change the existing tree). Furthermore we learned about mutable functions. In Python, we can change variables in parent frames (but not the global frame) using nonlocal and in scheme through the set! operator that will change the most local (including names in the global frame) name.
                     </div>
                     <div className="line"></div>
                     <div className="teaching-title">Important Links</div>
@@ -272,9 +272,68 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
+        } else if (num == 1 && num2 == 0) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 6"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        Lazy Evaluation! This is data that is not computed until we ask for it. It makes it possible to ask for elements of infinite series without breaking the computer.
+                        You were also introduced to interpreters, the heart and soul of John DeNero :) More on that to come!
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/119piEBp7zc9Vv0szRjDXwt7ca4qxy4ugZAqi1sgJDzo/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Lab 10 Slides (Iterators/Generators)</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://scheme.cs61a.org" target="_blank">
+                                <button className="appointment-button">scheme.cs61a.org</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=1035467306" target="_blank">
+                                <button className="appointment-button">Week 6 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 1 && num2 == 1) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 6"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        CONTRATULATIONS! The course is almost over! We learned about SQL and learned how to grab the data we want from a database.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1rcTfCVcCq4X_Zj1uUEbRLkhMDdoaWO2ktUKKRnI2wrI/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">SQL Review Slides and Final Exam-Level Problems</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://kripken.github.io/sql.js/GUI/" target="_blank">
+                                <button className="appointment-button">Online SQL Interpreter</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit#gid=266376152" target="_blank">
+                                <button className="appointment-button">Week 7 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
         }
-
-
     }
 }
 
