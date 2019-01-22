@@ -13,7 +13,7 @@ const Skills = () => (
                         <div className="circle"></div>
                     </li>
                     <li>
-                        <div className="slight-padding">Numpy/Pandas</div>
+                        <div className="slight-padding">Numpy/Pandas/sci-kit learn</div>
                         <div className="line-90"></div>
                         <div className="circle"></div>
                     </li>
@@ -42,11 +42,13 @@ const Skills = () => (
             <div className="skills-title">Coursework</div>
             <div className="skills">
                 <ul>
-                    <li>CS 61A: Composing Programs</li>
-                    <li>CS 61B: Data Structures</li>
+                    <li>CS 189: Machine Learning</li>
                     <li>Data 100: Principles and Techniques of Data Science</li>
+                    <li>Stat 140: Probibility for Data Science</li>
                     <li>Math 54 & Math 110: Linear Algebra</li>
                     <li>Math 113: Abstract Algebra</li>
+                    <li>Math 128A: Numerical Analysis</li>
+                    <li>CS 61B: Data Structures</li>
                 </ul>
             </div>
         </div>

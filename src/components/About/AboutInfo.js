@@ -7,8 +7,12 @@ const AboutInfo = () => (
             <img className="info-panel-img" src="imgs/info-pic.jpg" />
             <div className="button-block">
                 <img className="social-media-icon" src="imgs/facebook_circle.png" />
-                <Link to="/resume"><button className="resume-button">Resume</button></Link>
-                <img className="social-media-icon" src="imgs/linkedin_circle.png" />
+                <a href="./../../pdfs/cameron_resumepdf.pdf" target="_blank">
+                    <button className="resume-button">Resume</button>
+                </a>
+                <a href="https://www.linkedin.com/in/cameron-malloy/" target="_blank">
+                    <img className="social-media-icon" src="imgs/linkedin_circle.png" />
+                </a>
                 <div className="email-text">Contact: cmalloy@berkeley.edu</div>
             </div>
         </div>
