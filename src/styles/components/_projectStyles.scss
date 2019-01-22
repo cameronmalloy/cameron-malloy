@@ -17,6 +17,25 @@
     box-shadow: 1px 1px 1px gray;
     padding-bottom: 4px;
     line-height: 1.5;
+    text-align: center;
+}
+
+.info-panel-img-hw-limit {
+    position: relative;
+    width: auto;
+    height: auto;
+    max-height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.info-panel-img-h-limit {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .project-item-active {
@@ -51,6 +70,7 @@
     margin-right: 2rem;
     font-weight: 530;
     font-size: 1.4rem;
+    text-align: left;
 }
 
 .button-2px {

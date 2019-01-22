@@ -10,6 +10,7 @@ import Teaching from './components/Teaching/Teaching';
 import About from './components/About/About';
 import Project1Deliverable from './components/Projects/ProjectPdfs/Project1Deliverable';
 import Project2Deliverable from './components/Projects/ProjectPdfs/Project2Deliverable';
+import Project3 from './components/Projects/ProjectPdfs/Project3';
 import Footer from './components/Footer';
 
 const HomePage = () => <Home />
@@ -18,6 +19,7 @@ const TeachingPage = (props) => <Teaching location={props.location}/>
 const AboutPage = () => <About />
 const Project1Page = () => <Project1Deliverable />
 const Project2Page = () => <Project2Deliverable />
+const Project3Page = () => <Project3 />
 
 const NotFoundPage = () => (
     <div>
@@ -36,6 +38,7 @@ const routes = (
                 <Route path="/about" component={AboutPage} />
                 <Route path="/projects1" component={Project1Page} exact={true} />
                 <Route path="/projects2" component={Project2Page} exact={true} />
+                <Route path="/projects3" component={Project3Page} exact={true} />
                 <Route component={NotFoundPage} />
             </Switch>
             <Footer />

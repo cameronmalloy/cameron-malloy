@@ -12,38 +12,39 @@ const TeachingMain = (props) => {
                     email: cmalloy@berkeley.edu
                 </div>
                 <div className="teaching-email-desc">
-                    I get a ton of emails, and I funnel all of them from all my accounts (personal, school, work)
-                    into one then sort them from there. It would really help me if you put [STUDENT] at the
-                    beginning of the subject line and I'll get back to you even faster!
+                    Feel free to email me anytime with any questions or concerns regarding 61A or anything at all and I'll try 
+                    to get back to you by the end of the day.
                 </div>
                 <div className="line"></div>
                 <div className="teaching-title">My CS 61A Sections</div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Lab 14 [M/W]: </div>
-                    <div className="teaching-named-desc">2:30-4pm - 273 Soda</div>
+                    <div className="teaching-named-title">Lab 113L [TUES]: </div>
+                    <div className="teaching-named-desc">9:30-11am - 275 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Disucssion 104 [T/TH]: </div>
-                    <div className="teaching-named-desc">2:30-4pm - 310 Soda</div>
+                    <div className="teaching-named-title">Disucssion 112 [THURS]: </div>
+                    <div className="teaching-named-desc">9:30-11am - 220 Wheeler</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Office Hours [Th]: </div>
-                    <div className="teaching-named-desc">10-11am - 521 Cory</div>
+                    <div className="teaching-named-title">Office Hours []: </div>
+                    <div className="teaching-named-desc">TBA</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">HW Party [F]: </div>
-                    <div className="teaching-named-desc">3-4pm - 521 Cory</div>
+                    <div className="teaching-named-title">HW Party []: </div>
+                    <div className="teaching-named-desc">TBA</div>
+                </div>
+                <div className="small-margin-top"></div>
+                <div className="line"></div>
+                <div className="teaching-title">Appointments</div>
+                <div className="teaching-email-desc">
+                    You can book a 15 minute 1 on 1 appointment with me about anything like 61A homework, advice, sports, TV, whatever.
+                    Feel free to book more than one appointment with me on any diven day/week. If you need 30 minutes then book two in
+                    a row, no probs.
                     <div className="small-margin-top">
                         <a href="https://calendar.google.com/calendar/selfsched?sstoken=UU9NS0g3dEotR1hyfGRlZmF1bHR8M2MxZjUyZGJjYTBiZmNhZTE5ZTZmNjY3NWIyNTE1NGE" target="_blank">
                             <button className="appointment-button">Book an Appointment Here</button>
                         </a>
                     </div>
-                </div>
-                <div className="line"></div>
-                <div className="teaching-title">My Data 8 Lab Assist Section</div>
-                <div className="teaching-locations">
-                    <div className="teaching-named-title">Lab [M/W]: </div>
-                    <div className="teaching-named-desc">11am-1pm - 105 Cory</div>
                 </div>
                 <div className="buffer"></div>
             </div>

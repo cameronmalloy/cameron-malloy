@@ -49,9 +49,18 @@ export default class ProjectInfo extends React.Component {
         return (
             <div className="container-main-info">
                 <div className="project-info-container">
+                    <NavLink to="/projects3">
+                        <div onClick={(e) => this.handleSelectProject(2)} className={(this.state.projects == 2) ? "project-item-active" : "project-item"}>
+                            <img className="info-panel-img-hw-limit" src="/imgs/spot_cover.png" />
+                            <div className="project-title">Spotify Recommender (KNN)</div>
+                            <div className="project-description">
+                                Used Spotify's API to grab features for songs in a soundtrack and similar songs. Used KNN algorithm to find best songs.
+                            </div>
+                        </div>
+                    </NavLink>
                     <NavLink to="/projects1">
                         <div onClick={(e) => this.handleSelectProject(0)} className={(this.state.projects == 0) ? "project-item-active" : "project-item"}>
-                            <img className="info-panel-img" src="/imgs/espm-project.png" />
+                            <img className="info-panel-img-h-limit" src="/imgs/espm-project.png" />
                             <div className="project-title"> What Should I Eat Today (Berkeley)</div>
                             <div className="project-description">
                                 Statistically analyze the difference in prices between restaurants closer to where student's live compared to where student's don't typically live.
@@ -60,7 +69,7 @@ export default class ProjectInfo extends React.Component {
                     </NavLink>
                     <NavLink to="/projects2">
                         <div onClick={(e) => this.handleSelectProject(1)} className={(this.state.projects == 1) ? "project-item-active" : "project-item"}>
-                            <img className="info-panel-img" src="/imgs/project2.png" />
+                            <img className="info-panel-img-h-limit" src="/imgs/project2.png" />
                             <div className="project-title"> Machine Learning and MyoElectricity</div>
                             <div className="project-description">
                                 Team of 5: Created an android app that uses a 3rd party armband to predict user's intent of motion in forearm and hand.
