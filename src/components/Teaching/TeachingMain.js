@@ -27,7 +27,7 @@ const TeachingMain = (props) => {
                 </div>
                 <div className="teaching-locations">
                     <div className="teaching-named-title">Office Hours [THURS]:</div>
-                    <div className="teaching-named-desc">4-5pm</div>
+                    <div className="teaching-named-desc">4-5pm - 109 Wheeler</div>
                 </div>
                 <div className="small-margin-top"></div>
                 <div className="line"></div>
