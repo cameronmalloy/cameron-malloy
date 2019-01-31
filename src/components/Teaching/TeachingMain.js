@@ -26,12 +26,8 @@ const TeachingMain = (props) => {
                     <div className="teaching-named-desc">9:30-11am - 220 Wheeler</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Office Hours []: </div>
-                    <div className="teaching-named-desc">TBA</div>
-                </div>
-                <div className="teaching-locations">
-                    <div className="teaching-named-title">HW Party []: </div>
-                    <div className="teaching-named-desc">TBA</div>
+                    <div className="teaching-named-title">Office Hours [THURS]:</div>
+                    <div className="teaching-named-desc">4-5pm</div>
                 </div>
                 <div className="small-margin-top"></div>
                 <div className="line"></div>
@@ -104,17 +100,12 @@ const TeachingMain = (props) => {
                             </a>               
                         </div>
                         <div>
-                            <a href="https://www.youtube.com/playlist?list=PLx38hZJ5RLZfg6jvEBBtjc5fnc5BclyEb" target="_blank">
-                                <button className="appointment-button">Discussion 01 Video Solution Playlist</button>
-                            </a>               
-                        </div>
-                        <div>
                             <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
                                 <button className="appointment-button">Python Tutor</button>
                             </a>               
                         </div>
                         <div>
-                            <a href="https://docs.google.com/spreadsheets/d/16ne2N6F1fmuc7KWQYc_jf_LH8_K1is0rUfrxDHFtk-U/edit?usp=sharing" target="_blank">
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=0" target="_blank">
                                 <button className="appointment-button">Week 1 Student Statistics</button>
                             </a>               
                         </div>
