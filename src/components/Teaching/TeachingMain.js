@@ -82,7 +82,7 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 2) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Week 1"} />
+                    <TitleMain title={"Week 2"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
                         We introduced python this week. We learned about expressions, statements, and how python works with assignment statements.
@@ -106,7 +106,7 @@ const TeachingMain = (props) => {
                         </div>
                         <div>
                             <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=0" target="_blank">
-                                <button className="appointment-button">Week 1 Student Statistics</button>
+                                <button className="appointment-button">Week 2 Student Statistics</button>
                             </a>               
                         </div>
                     </div>
