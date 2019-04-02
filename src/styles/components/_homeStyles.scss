@@ -13,7 +13,7 @@
 
 .container-main-main,
 .container-main-info {
-    overflow: auto;
+    overflow: scroll;
     height: auto;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: none;

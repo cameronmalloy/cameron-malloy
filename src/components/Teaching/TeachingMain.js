@@ -113,7 +113,211 @@ const TeachingMain = (props) => {
                     <div className="buffer"></div>
                 </div>
             )
-        }  
+        } else if (num == 0 && num2 == 3) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 3"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        This week we introduced control (if statements), iteration (while loops), and functions which allows us to succinctly write code and consolidate consolidate
+                        code into one "block". We also learned how to run a block of code multiple times through loops and functions.
+                        We also learned how to diagram functions out to make sense of how python is reading the code we write.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1aknuccp4SAodY8CHi9SpBx2_o17840RpDTgNFwv_A8U/edit#slide=id.p" target="_blank">
+                                <button className="appointment-button">Midterm 1 Review (Environment Diagrams and WWPP)</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=901491921" target="_blank">
+                                <button className="appointment-button">Week 3 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 0 && num2 == 4) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 4"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        This week was all about recursion. Recursive calls and multipel recursive calls (tree recursion). The key thing 
+                        to take away from this week is to get comfortable with the leap of faith. It will make recursion a lot easier
+                        to understand once you trust the leap of faith.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=399085859" target="_blank">
+                                <button className="appointment-button">Week 4 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 0 && num2 == 5) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 5"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        Data storage was the name of the game this week. We learned how we can store multiple different values in
+                        things called lists. We could also store them in a data structure called trees. We learned many ways to
+                        manipulate lists as well as how to approach tree problems recursively.
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=111096581" target="_blank">
+                                <button className="appointment-button">Week 5 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 0 && num2 == 9) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 6"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        MUTABLE VALUES AND MUTABLE FUNCTIONS AND CLASSES WOO!
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1lxSYwv5hy930Nly811ZPOHHu2e6wxEb9PFNSs3eXris/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">OOP Example & Vocabulary</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=1551709292" target="_blank">
+                                <button className="appointment-button">Week 6 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 1 && num2 == 0) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 7"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        INHERITANCE
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1ocfuUKcXimAcDhicAxx_L7cMVlb1NuzNhGezXHpPbPA/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">OOP Example & Misconceptions</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=1179909380" target="_blank">
+                                <button className="appointment-button">Week 7 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 1 && num2 == 1) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 8"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        LINKED LISTS AND MUTABLE TREES
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="https://docs.google.com/presentation/d/1h0up7uRD3QvK7WrKgM_Tq2BKiuOQUdH_zQqhNVz5TxU/edit?usp=sharing" target="_blank">
+                                <button className="appointment-button">Mutable Trees Examples</button>
+                            </a>               
+                            <a href="https://inst.eecs.berkeley.edu/~cs61a/su18/disc/disc09.pdf" target="_blank">
+                                <button className="appointment-button">Link to Questions for Slides for the Examples</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="http://pythontutor.com/composingprograms.html#mode=edit" target="_blank">
+                                <button className="appointment-button">Python Tutor</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=1016191406" target="_blank">
+                                <button className="appointment-button">Week 7 Student Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 1 && num2 == 2) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 8"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        LINKED LISTS AND MUTABLE TREES
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="../../../pdfs/lab6slides.pptx" target="_blank">
+                                <button className="appointment-button">Scheme Slides</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://scheme.cs61a.org/" target="_blank">
+                                <button className="appointment-button">Scheme Interpreter</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        }
     }
 }
 
