@@ -44,6 +44,29 @@ const TeachingMain = (props) => {
                     When making an appointment, please make one 2 days in advance so I can book a room. Do not put anything in the "Where"
                     section, but do please put your name and purpose of the appointment in the Description.
                 </div>
+                <div className="line"></div>
+                <div className="teaching-title">Challenge Problems</div>
+                <div className="teaching-email-desc">
+                    <div className="small-margin-top">
+                        <a href="../../../pdfs/Challenge_Problems.html" target="_blank">
+                            <button className="appointment-button">Link to Problems</button>
+                        </a>
+                    </div>
+                </div>
+                <div className="teaching-locations">
+                    <div className="teaching-named-title">Problems Posted Thus Far:</div>
+                </div>
+                <div className="teaching-email-desc">
+                    <ol>
+                        <li>While Loops and Control</li>
+                        <li>Higher Order Functions</li>
+                        <li>Tree Recursion (2 problems)</li>
+                        <li>OOP (build a class)</li>
+                        <li>Trees</li>
+                        <li>Linked Lists</li>
+                        <li>Scheme List Construction</li>
+                    </ol>
+                </div>
                 <div className="buffer"></div>
             </div>
         )
