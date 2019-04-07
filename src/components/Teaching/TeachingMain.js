@@ -48,7 +48,7 @@ const TeachingMain = (props) => {
                 <div className="teaching-title">Challenge Problems</div>
                 <div className="teaching-email-desc">
                     <div className="small-margin-top">
-                        <a href="../../../pdfs/Challenge_Problems.html" target="_blank">
+                        <a href="../../../Challenge_Problems.html" target="_blank">
                             <button className="appointment-button">Link to Problems</button>
                         </a>
                     </div>
@@ -62,7 +62,7 @@ const TeachingMain = (props) => {
                         <li>Higher Order Functions</li>
                         <li>Tree Recursion (2 problems)</li>
                         <li>OOP (build a class)</li>
-                        <li>Trees</li>
+                        <li>Trees (2 problems, 1 BTree)</li>
                         <li>Linked Lists</li>
                         <li>Scheme List Construction</li>
                     </ol>
