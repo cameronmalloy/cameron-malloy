@@ -41,7 +41,6 @@ const routes = (
                 <Route path="/projects3" component={Project3Page} exact={true} />
                 <Route component={NotFoundPage} />
             </Switch>
-            <Footer />
         </div>
     </BrowserRouter>
 );

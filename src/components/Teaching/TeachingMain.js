@@ -27,7 +27,7 @@ const TeachingMain = (props) => {
                 </div>
                 <div className="teaching-locations">
                     <div className="teaching-named-title">Office Hours [THURS]:</div>
-                    <div className="teaching-named-desc">4-5pm - 109 Wheeler</div>
+                    <div className="teaching-named-desc">4-5pm - 109 Morgan</div>
                 </div>
                 <div className="small-margin-top"></div>
                 <div className="line"></div>
@@ -288,7 +288,7 @@ const TeachingMain = (props) => {
                     <TitleMain title={"Week 8"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
-                        LINKED LISTS AND MUTABLE TREES
+                        LINKED LISTS AND MUTABLE TREEEEEES!
                     </div>
                     <div className="line"></div>
                     <div className="teaching-title">Important Links</div>
@@ -308,7 +308,7 @@ const TeachingMain = (props) => {
                         </div>
                         <div>
                             <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=1016191406" target="_blank">
-                                <button className="appointment-button">Week 7 Student Statistics</button>
+                                <button className="appointment-button">Week 8 Student Statistics</button>
                             </a>               
                         </div>
                     </div>
@@ -318,10 +318,14 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 2) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Week 8"} />
+                    <TitleMain title={"Week 10"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
-                        LINKED LISTS AND MUTABLE TREES
+                            We introduced a new language! You might be thinking, why would we learn a new language? Well it's because
+                            we're trying to teach more than just a language. We're trying to teach you the fundamentals of computer
+                            science. It doesn't matter which language you're using, the concepts are still the same. Even in a completely
+                            different (and arguably harder) language than python, most of the concepts are the same. Functions, variables,
+                            environments, etc. all work the same way.
                     </div>
                     <div className="line"></div>
                     <div className="teaching-title">Important Links</div>
@@ -329,6 +333,36 @@ const TeachingMain = (props) => {
                         <div>
                             <a href="../../../pdfs/lab6slides.pptx" target="_blank">
                                 <button className="appointment-button">Scheme Slides</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://scheme.cs61a.org/" target="_blank">
+                                <button className="appointment-button">Scheme Interpreter</button>
+                            </a>               
+                        </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=735317874" target="_blank">
+                                <button className="appointment-button">Week 10 Statistics</button>
+                            </a>               
+                        </div>
+                    </div>
+                    <div className="buffer"></div>
+                </div>
+            )
+        } else if (num == 1 && num2 == 3) {
+            return (
+                <div className="container-main-main">
+                    <TitleMain title={"Week 11"} />
+                    <div className="teaching-title">Summary</div>
+                    <div className="teaching-email-desc">
+                        INTERPRETERS BABY
+                    </div>
+                    <div className="line"></div>
+                    <div className="teaching-title">Important Links</div>
+                    <div className="teaching-locations">
+                        <div>
+                            <a href="../../../pdfs/repl.pdf" target="_blank">
+                                <button className="appointment-button">REPL Lab Notes</button>
                             </a>               
                         </div>
                         <div>
