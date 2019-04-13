@@ -61,10 +61,10 @@ export default class TeachingInfo extends React.Component {
                             <HomeUpdate title="Week 8" highlights="Mutable Trees" date="3/14/19" link="/teaching/11" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 12) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 10" highlights="((SCHEME))" date="4/2/19" link="/teaching/12" />
+                            <HomeUpdate title="Week 11" highlights="((SCHEME))" date="4/2/19" link="/teaching/12" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 13) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 11" highlights="Interpreters/Tail Calls" date="4/8/19" link="/teaching/13" />
+                            <HomeUpdate title="Week 12" highlights="Interpreters/Tail Calls" date="4/8/19" link="/teaching/13" />
                         </button>
                         <div className="buffer"></div>
                 </div>

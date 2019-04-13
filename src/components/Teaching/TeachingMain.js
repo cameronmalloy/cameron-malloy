@@ -318,7 +318,7 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 2) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Week 10"} />
+                    <TitleMain title={"Week 11"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
                             We introduced a new language! You might be thinking, why would we learn a new language? Well it's because
@@ -342,7 +342,7 @@ const TeachingMain = (props) => {
                         </div>
                         <div>
                             <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=735317874" target="_blank">
-                                <button className="appointment-button">Week 10 Statistics</button>
+                                <button className="appointment-button">Week 11 Statistics</button>
                             </a>               
                         </div>
                     </div>
@@ -352,7 +352,7 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 3) {
             return (
                 <div className="container-main-main">
-                    <TitleMain title={"Week 11"} />
+                    <TitleMain title={"Week 12"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
                         INTERPRETERS BABY
@@ -370,11 +370,16 @@ const TeachingMain = (props) => {
                                 <button className="appointment-button">Scheme Interpreter</button>
                             </a>               
                         </div>
+                        <div>
+                            <a href="https://docs.google.com/spreadsheets/d/1W-7AA5TR599y82hrP6gVlS5wvb5JICAPp7bfocnpVGs/edit#gid=758832898" target="_blank">
+                                <button className="appointment-button">Week 12 Student Statistics</button>
+                            </a>               
+                        </div>
                     </div>
                     <div className="buffer"></div>
                 </div>
             )
-        }
+        } 
     }
 }
 
