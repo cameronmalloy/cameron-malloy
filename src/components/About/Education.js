@@ -7,13 +7,13 @@ const Education = () => (
             <div className="major-title">Majors</div>
                 <a href="https://math.berkeley.edu/programs/undergraduate/major/applied" target="_blank">
                     <div className="major">
-                        Applied Mathematics, focus in Statisticsv
+                        Applied Mathematics, focus in Economics
                         <div className="major-helper">B.A.</div>
                     </div>
                 </a>
-                <a href="https://data.berkeley.edu/degrees/data-science-ba" target="_blank">
+                <a href="http://guide.berkeley.edu/undergraduate/degree-programs/data-science/" target="_blank">
                     <div className="major">
-                        Data Science, focus in Business Analytics
+                        Data Science, focus in Mathematics and Modeling
                         <div className="major-helper">B.A.</div>
                     </div>
                 </a>

@@ -37,34 +37,34 @@ export default class TeachingInfo extends React.Component {
                 <div className="teaching-info-block">
                     <div className="teaching-info-title-title">CS 61A</div>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 0) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 1" highlights="Funny Video" date="1/22/19" link="/teaching/00" />
+                            <HomeUpdate title="Funny Video" highlights="Week 1" date="8/28/19" link="/teaching/00" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 2) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 2" highlights="Intro to Python" date="1/31/19" link="/teaching/02" />
+                            <HomeUpdate title="Intro to Python" highlights="Week 2" date="9/2/19" link="/teaching/02" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 3) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 3" highlights="Functions and Control" date="2/7/19" link="/teaching/03" />
+                            <HomeUpdate title="Functions and Control" highlights="Week 3" date="9/9/19" link="/teaching/03" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 4) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 4" highlights="Recursion" date="2/14/19" link="/teaching/04" />
+                            <HomeUpdate title="Recursion" highlights="Week 4" date="9/18/19" link="/teaching/04" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 5) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 5" highlights="Lists and Trees" date="2/21/19" link="/teaching/05" />
+                            <HomeUpdate title="Lists and Trees" highlights="Week 5" date="9/23/19" link="/teaching/05" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 9) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 6" highlights="Mutability" date="2/28/19" link="/teaching/09" />
+                            <HomeUpdate title="Mutability" highlights="Week 6" date="9/30/19" link="/teaching/09" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 10) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 7" highlights="Inheritance and OOG" date="3/7/19" link="/teaching/10" />
+                            <HomeUpdate title="Objects and Inheritance" highlights="Week 7" date="10/7/19" link="/teaching/10" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 11) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 8" highlights="Mutable Trees" date="3/14/19" link="/teaching/11" />
+                            <HomeUpdate title="OOG, Mutable Trees, Linked Lists" highlights="Week 8" date="10/14/19" link="/teaching/11" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 12) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 11" highlights="((SCHEME))" date="4/2/19" link="/teaching/12" />
+                            <HomeUpdate title="((SCHEME))" highlights="Week 10" date="10/28/19" link="/teaching/12" />
                         </button>
                         <button onClick={(e) => this.handleSelectVideo(0)} className={(this.state.videos == 13) ? "video-block-active" : "video-block"}>
-                            <HomeUpdate title="Week 12" highlights="Interpreters/Tail Calls" date="4/8/19" link="/teaching/13" />
+                            <HomeUpdate title="Interpreters & Tail Calls" highlights="Week 11" date="11/4/19" link="/teaching/13" />
                         </button>
                         <div className="buffer"></div>
                 </div>

@@ -18,12 +18,12 @@ const TeachingMain = (props) => {
                 <div className="line"></div>
                 <div className="teaching-title">My CS 61A Sections</div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Lab 113L [TUES]: </div>
-                    <div className="teaching-named-desc">9:30-11am - 275 Soda</div>
+                    <div className="teaching-named-title">Lab 157C [MON]: </div>
+                    <div className="teaching-named-desc">3-4:30pm - 330 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Disucssion 112 [THURS]: </div>
-                    <div className="teaching-named-desc">9:30-11am - 220 Wheeler</div>
+                    <div className="teaching-named-title">Disucssion 102B [THURS]: </div>
+                    <div className="teaching-named-desc">3-4:30pm - 320 Soda</div>
                 </div>
                 <div className="teaching-locations">
                     <div className="teaching-named-title">Office Hours [THURS]:</div>
@@ -31,7 +31,7 @@ const TeachingMain = (props) => {
                 </div>
                 <div className="small-margin-top"></div>
                 <div className="line"></div>
-                <div className="teaching-title">Appointments</div>
+                <div className="teaching-title">Appointments [Appointments start 2nd week of class]</div>
                 <div className="teaching-email-desc">
                     You can book a 15 minute 1 on 1 appointment with me about anything like 61A homework, advice, sports, TV, whatever.
                     Feel free to book more than one appointment with me on any diven day/week. If you need 30 minutes then book two in
@@ -41,7 +41,7 @@ const TeachingMain = (props) => {
                             <button className="appointment-button">Book an Appointment Here</button>
                         </a>
                     </div>
-                    When making an appointment, please make one 2 days in advance so I can book a room. Do not put anything in the "Where"
+                    When making an appointment, try to book it a day in advance so I have time to book a room. Do not put anything in the "Where"
                     section, but do please put your name and purpose of the appointment in the Description.
                 </div>
                 <div className="line"></div>
@@ -74,9 +74,16 @@ const TeachingMain = (props) => {
         const location = props.location;
         const num = location.charAt(10);
         const num2 = location.charAt(11);
+
+
         if (num == 0 && num2 == 0) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Ghetto Spiderman"} />
                     <div className="teaching-video">
                         <YoutubeEmbedVideo
@@ -91,6 +98,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 1) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Panic! Boheian Rhapsody"} />
                     <div className="teaching-video">
                         <YoutubeEmbedVideo
@@ -105,6 +117,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 2) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 2"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -139,6 +156,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 3) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 3"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -171,6 +193,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 4) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 4"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -198,6 +225,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 5) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 5"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -225,6 +257,11 @@ const TeachingMain = (props) => {
         } else if (num == 0 && num2 == 9) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 6"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -255,6 +292,11 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 0) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 7"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -285,6 +327,11 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 1) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 8"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -318,6 +365,11 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 2) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 11"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
@@ -352,6 +404,11 @@ const TeachingMain = (props) => {
         } else if (num == 1 && num2 == 3) {
             return (
                 <div className="container-main-main">
+                    <div className="small-margin-top">
+                        <a href="google.com" target="_blank">
+                            <button className="appointment-button">Return to Teaching Landing Page</button>
+                        </a>
+                    </div>
                     <TitleMain title={"Week 12"} />
                     <div className="teaching-title">Summary</div>
                     <div className="teaching-email-desc">
