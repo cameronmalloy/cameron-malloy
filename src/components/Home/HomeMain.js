@@ -7,7 +7,7 @@ const HomeMain = () => (
         <div className="home-padding" />
         <img className="container-main-img" src="/imgs/me.png" />
         <div className="home-label">
-            Aspring Data Scientist / Product Manager
+            Data Scientist
         </div>
         <div className="home-desc">
             Hi, I'm Cameron. I'm a student and Teaching Assistant at UC Berkeley.
