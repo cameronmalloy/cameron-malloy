@@ -80,7 +80,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -99,7 +99,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -118,7 +118,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -157,7 +157,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -194,7 +194,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -226,7 +226,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -258,7 +258,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -293,7 +293,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -328,7 +328,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -366,7 +366,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
@@ -405,7 +405,7 @@ const TeachingMain = (props) => {
             return (
                 <div className="container-main-main">
                     <div className="small-margin-top">
-                        <a href="google.com" target="_blank">
+                        <a href="http://www.cameronmalloy.com/teaching">
                             <button className="appointment-button">Return to Teaching Landing Page</button>
                         </a>
                     </div>
