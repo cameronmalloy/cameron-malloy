@@ -22,7 +22,7 @@ const TeachingMain = (props) => {
                     <div className="teaching-named-desc">3-4:30pm - 330 Soda</div>
                 </div>
                 <div className="teaching-locations">
-                    <div className="teaching-named-title">Disucssion 102B [THURS]: </div>
+                    <div className="teaching-named-title">Disucssion 102B [WED]: </div>
                     <div className="teaching-named-desc">3-4:30pm - 320 Soda</div>
                 </div>
                 <div className="teaching-locations">
